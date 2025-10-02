@@ -2,7 +2,7 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Portofolio Desain</title>
+  <title>Portofolio Design</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -10,42 +10,137 @@
       padding: 0;
       background: #f4f4f9;
       color: #333;
-      text-align: center;
     }
     header {
       background: #4CAF50;
       color: white;
-      padding: 30px 0;
+      padding: 40px 0;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #4CAF50;
     }
     section {
-      padding: 20px;
-      max-width: 800px;
+      padding: 40px 20px;
+      max-width: 1000px;
       margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #4CAF50;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
     }
     .card {
       background: white;
-      margin: 15px 0;
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #25D366;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      background: #1DA851;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Selamat Ulang Tahun 🎉</h1>
-    <p>Website ini hadiah spesial untukmu 💚</p>
+    <p>Website ini hadiah untuk kamu, semoga bermanfaat dan semoga kamu suka yaa...</p>
   </header>
 
-  <section>
-    <div class="card">
-      <h2>Portofolio Desain Interior</h2>
-      <p>Galeri proyek desain interior yang elegan dan modern.</p>
-    </div>
-    <div class="card">
-      <h2>Kanopi & Gerbang</h2>
-      <p>Solusi terbaik untuk kanopi dan gerbang rumah impianmu.</p>
+  <nav>
+    <a href="#produk">Produk</a>
+    <a href="#portofolio">Portofolio</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <!-- Produk -->
+  <section id="produk">
+    <h2>Produk</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Interior">
+        <h3>Desain Interior</h3>
+        <p>Desain interior modern & elegan.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Kanopi">
+        <h3>Kanopi</h3>
+        <p>Kanopi berkualitas dan desain yang stylish.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Gerbang">
+        <h3>Gerbang</h3>
+        <p>Gerbang yang elegan untuk rumah anda.</p>
+      </div>
     </div>
   </section>
+
+  <!-- Portofolio -->
+  <section id="portofolio">
+    <h2>Portofolio</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Proyek 1">
+        <p>Proyek design interior yang modern & elegan</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Proyek 2">
+        <p>Pemasangan kanopi yang berkualitas dan stylish</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x250" alt="Proyek 3">
+        <p>Gerbang besi dengan motif yang elegan</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="contact">
+    <h2>Kontak</h2>
+    <p>Hubungi untuk kerja sama atau pemesanan:</p>
+    <a href="zatmz.id@gmail.com">Email</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Portofolio Usaha By Nimas Kurniawati</p>
+  </footer>
 </body>
 </html>
