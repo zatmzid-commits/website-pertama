@@ -2,142 +2,67 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Portofolio Design</title>
+  <title>Website Pertama</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f4f9;
-      color: #333;
+      background-color: #f5f5f5;
     }
+
     header {
-      background: #4CAF50;
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #333;
       color: white;
-      padding: 40px 0;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .image-section {
       text-align: center;
+      margin: 40px 0;
     }
-    nav {
-      background: #333;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      color: #4CAF50;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #4CAF50;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: white;
-      padding: 20px;
+
+    .image-section img {
+      max-width: 80%;
+      height: auto;
       border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
-    .card img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin-bottom: 10px;
-    }
-    .contact a {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 20px;
-      background: #4CAF50;
-      color: white;
-      border-radius: 5px;
-      text-decoration: none;
-    }
-    .contact a:hover {
-      background: #388E3C;
-    }
+
     footer {
-      background: #333;
-      color: white;
       text-align: center;
-      padding: 20px 10px;
-      margin-top: 40px;
+      padding: 20px;
+      background-color: #333;
+      color: white;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Selamat Ulang Tahun, Ersa Pratama Wijayadi 🎉</h1>
-    <p>Website ini hadiah untuk kamu, semoga bermanfaat dan semoga kamu suka yaa...</p>
+    <h1>Selamat Datang di Website Pertama</h1>
+    <p>Website sederhana dengan gambar latar dan konten</p>
   </header>
 
-  <nav>
-    <a href="#produk">Produk</a>
-    <a href="#portofolio">Portofolio</a>
-    <a href="#kontak">Kontak</a>
-  </nav>
-
-  <!-- Produk -->
-  <section id="produk">
-    <h2>Produk</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="https://via.placeholder.com/400x250" alt="Interior">
-             <p>Desain interior modern & elegan.</p>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/400x250" alt="Kanopi">
-             <p>Kanopi berkualitas dan desain yang stylish.</p>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/400x250" alt="Gerbang">
-             <p>Gerbang yang elegan untuk rumah anda.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portofolio -->
-  <section id="portofolio">
-    <h2>Portofolio</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="https://via.placeholder.com/400x250" alt="Proyek 1">
-        <p>Proyek design interior yang modern & elegan</p>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/400x250" alt="Proyek 2">
-        <p>Pemasangan kanopi yang berkualitas dan stylish</p>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/400x250" alt="Proyek 3">
-        <p>Gerbang besi dengan motif yang elegan</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Kontak -->
-  <section id="kontak" class="contact">
-    <h2>Kontak</h2>
-    <p>Hubungi untuk kerja sama atau pemesanan:</p>
-    <a href="mailto:zatmz.id@gmail.com">Email</a>
+  <section class="image-section">
+    <h2>Interior</h2>
+    <img src="images/interior.jpg" alt="Interior Design">
   </section>
 
   <footer>
-    <p>© 2025 By Nimas Kurniawati</p>
+    &copy; 2025 Nimas Kurniawati
   </footer>
+
 </body>
 </html>
